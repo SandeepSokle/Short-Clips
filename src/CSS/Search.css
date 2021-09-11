@@ -1,0 +1,27 @@
+
+
+
+
+
+.searchContainer{
+  height: 84vh;
+  width: 34vw;
+  /* box-shadow: 0px 2px 12px 0px red; */
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list{
+    overflow: auto;
+    width: 100%;
+    max-height: 70vh;
+    box-shadow: 0px 2px 12px 2px;
+    
+}
+
+.input_search{
+    box-shadow: 0px 2px 12px 2px;
+    
+}

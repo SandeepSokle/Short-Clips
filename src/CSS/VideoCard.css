@@ -1,0 +1,83 @@
+.video{
+    /* margin-bottom: 10px; */
+    /* scroll-snap-align: start; */
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.videoContainer {
+  position: relative;
+  scroll-snap-align: start;
+  height: 88vh;
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 8vh;
+background-color: #64b4f66d;
+  box-shadow: 0px 2px 12px 2px;
+  padding: 2px;
+}
+
+
+.likeBtn,.CmntBtn,.videoProfile,.songName,.lastComment,.shareBtn{
+    position: absolute;
+    color:#e74c3c;
+}
+
+.likeBtn{
+    bottom: 5rem;
+    right: 10rem;
+    color: red;
+    cursor: pointer;
+}
+
+.shareBtn{
+    bottom: 5rem;
+    right: 6rem;
+    color: red;
+    cursor: pointer;
+    
+}
+
+.CmntBtn{
+    bottom: 5rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.videoProfile{
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: row;
+    height: 1rem!important;
+}
+
+
+.videoProfileImg{
+    height: 2.3rem!important;
+    width: 2.3rem;
+    border-radius: 50%;
+
+}
+
+.songName{
+    bottom: 8rem;
+    left: 2rem;
+}
+
+.lastComment{
+    bottom: 6rem;
+    left: 2rem;
+}
+
+.popupContainer{
+    position: fixed;
+    top: 45vh;
+    left: 35vw;
+    padding: 20px;
+    box-shadow: 0px 2px 12px 2px red;
+}
+

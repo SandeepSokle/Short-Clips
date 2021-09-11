@@ -1,0 +1,28 @@
+
+
+
+
+
+
+.profile{
+    height: 2rem;
+}
+
+
+.image{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar{
+    margin: 0;
+    margin-top: -5px;
+}
+
+.profileBtn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

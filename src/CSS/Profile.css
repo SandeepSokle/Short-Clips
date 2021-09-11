@@ -1,0 +1,26 @@
+
+
+
+.profileContainer{
+padding: 40px;
+    box-shadow: 2px 0px 20px 3px;
+}
+
+.profileImgContainer,.logoutBtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logoutBtn{
+    flex-direction: row;
+
+}
+
+.profileImage{
+    width: 150px;
+    border-radius: 50%;
+}
+

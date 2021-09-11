@@ -1,0 +1,36 @@
+
+
+
+
+
+.listComment{
+    overflow: auto;
+    width: 100%;
+    max-height: 52vh;
+    box-shadow: 0px 2px 12px 2px;
+    
+}
+
+.inputComment{
+    opacity: 1;
+    position: absolute;
+    bottom: 4px;
+    width: 90%;
+    box-shadow: 0px 2px 12px 2px;
+    
+}
+
+.commentContainer{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 70%;
+    width: 80%;
+    box-shadow: 0px 2px 12px 2px;
+    color: black;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+}

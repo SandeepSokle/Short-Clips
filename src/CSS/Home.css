@@ -1,0 +1,15 @@
+
+
+
+
+
+.homeContainer{
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  margin-top: 10vh;
+}
+
+
+

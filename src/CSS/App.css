@@ -1,0 +1,30 @@
+
+
+
+.app{
+    height: 100vh;
+    overflow: hidden;
+}
+.navbar{
+    box-sizing: border-box;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.grid{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top:7vh;
+    background-image: url("../Image/background2.jpg");
+    background-position: center;
+}
+
+

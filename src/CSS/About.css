@@ -1,0 +1,19 @@
+
+
+
+.aboutContainor{
+padding: 40px;
+    box-shadow: 2px 0px 20px 3px;
+}
+
+.heading{
+    width: 100%;
+    color: #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
